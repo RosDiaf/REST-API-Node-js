@@ -1,10 +1,8 @@
-REST-API-Node-js
-Overview
-Simple REST APIs in Node.
+<h2>Overview</h2>
+<p>Simple REST APIs in Node.</p>
 
-Getting Started
+<p><strong>Getting Started</strong></p>
 Create directory
-
 Now open up your terminal or command line and go to the project’s directory. Type
 
 npm init
