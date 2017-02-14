@@ -5,7 +5,7 @@
 <p>Create directory<br />
 Now open up your terminal or command line and go to the project’s directory. Type<br /><br />
 
-<strong>npm init</strong></p>
+<strong>npm init</strong> (to create package.json file)</p>
 
 <ul>
 <li>name:</li>
@@ -22,8 +22,6 @@ Now open up your terminal or command line and go to the project’s directory. T
 <p>Install package and and save it as dependency in the package.json file</p>
 
 <strong>npm install express --save</strong>
-
-create a file named app.js
 
 <strong>npm install -g nodemon</strong>
 
@@ -45,6 +43,9 @@ Unit test modules:
 <strong>npm install --save-dev should</strong>
 
 <strong>npm install --save-dev supertest</strong>
+
+<p>create a file named app.js</p>
+
 
 <h2>Run Server</h2>
 
