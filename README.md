@@ -5,7 +5,7 @@
 <p>Create directory<br />
 Now open up your terminal or command line and go to the project’s directory. Type<br /><br />
 
-<strong>npm init/<strong></p>
+<strong>npm init</strong></p>
 
 <ul>
 <li>name:</li>
