@@ -27,17 +27,27 @@ npm install express --save
 
 create a file named app.js
 
-npm install -g nodemon (monitor for any changes in your source and automatically restart your server.)
+npm install -g nodemon 
 
-npm install pug (A clean, whitespace-sensitive template language for writing HTML)
+(monitor for any changes in your source and automatically restart your server.)
 
-npm install --save body-parser (Express version 4 and above requires extra middle-ware layer to handle POST request. This middle-ware is called as ‘bodyParser’. This used to be internal part of Express framework but now you have to install it separately.) 
+npm install pug 
+
+(A clean, whitespace-sensitive template language for writing HTML)
+
+npm install --save body-parser 
+
+(Express version 4 and above requires extra middle-ware layer to handle POST request. This middle-ware is called as ‘bodyParser’. This used to be internal part of Express framework but now you have to install it separately.) 
 Unit test modules:
 
 npm install mocha --save
+
 npm install chai --save
+
 npm install --save-dev should
+
 npm install --save-dev supertest
+
 
 Run Server
 
@@ -49,6 +59,7 @@ nodemon app.js
 
 
 Make Requests
+
 http://localhost:3000/
 
 http://localhost:3000/api/add
