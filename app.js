@@ -44,7 +44,6 @@ const pug = require('pug');
 const compiledFunction_data = pug.compileFile('./views/data.pug');
 const compiledFunction_form = pug.compileFile('./views/edit.pug');
 const compiledFunction_confirm = pug.compileFile('./views/confirm.pug');
-const compiledFunction_insert = pug.compileFile('./views/confirm.pug');
 // -- End -----------------------------------
 
 
