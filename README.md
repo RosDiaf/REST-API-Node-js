@@ -2,20 +2,22 @@
 <p>Simple REST APIs in Node.</p>
 
 <p><strong>Getting Started</strong></p>
-Create directory
-Now open up your terminal or command line and go to the project’s directory. Type
+<p>Create directory<br />
+Now open up your terminal or command line and go to the project’s directory. Type<br /><br />
 
-npm init
+npm init</p>
 
-name:
-version:
-description:
-entry point:
-test command:
-git repository:
-keywords:
-author:
-licence:
+<ul>
+<li>name:</li>
+<li>version:</li>
+<li>description:</li>
+<li>entry point:</li>
+<li>test command:</li>
+<li>git repository:</li>
+<li>keywords:</li>
+<li>author:</li>
+<li>licence:</li>
+</ul>
 
 Install package and and save it as dependency in the package.json file
 
@@ -44,7 +46,7 @@ npm install --save-dev should
 
 npm install --save-dev supertest
 
-Run Server
+<h2>Run Server</h2>
 
 node app.js
 
@@ -52,7 +54,7 @@ or
 
 nodemon app.js
 
-Make Requests
+<h2>Make Requests</h2>
 
 http://localhost:3000/
 
