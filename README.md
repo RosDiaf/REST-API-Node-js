@@ -50,9 +50,13 @@ nodemon app.js
 
 Make Requests
 http://localhost:3000/
+
 http://localhost:3000/api/add
+
 http://localhost:3000/edit/:id
+
 http://localhost:3000/delete/:id
+
 http://localhost:3000/api/save
 
 
