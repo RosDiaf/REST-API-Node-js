@@ -5,7 +5,7 @@
 <p>Create directory<br />
 Now open up your terminal or command line and go to the project’s directory. Type<br /><br />
 
-npm init</p>
+<strong>npm init/<strong></p>
 
 <ul>
 <li>name:</li>
@@ -19,40 +19,40 @@ npm init</p>
 <li>licence:</li>
 </ul>
 
-Install package and and save it as dependency in the package.json file
+<p>Install package and and save it as dependency in the package.json file</p>
 
-npm install express --save
+<strong>npm install express --save</strong>
 
 create a file named app.js
 
-npm install -g nodemon
+<strong>npm install -g nodemon</strong>
 
 (monitor for any changes in your source and automatically restart your server.)
 
-npm install pug
+<strong>npm install pug</strong>
 
 (A clean, whitespace-sensitive template language for writing HTML)
 
-npm install --save body-parser
+<strong>npm install --save body-parser</strong>
 
 (Express version 4 and above requires extra middle-ware layer to handle POST request. This middle-ware is called as ‘bodyParser’. This used to be internal part of Express framework but now you have to install it separately.)
 Unit test modules:
 
-npm install mocha --save
+<strong>npm install mocha --save</strong>
 
-npm install chai --save
+<strong>npm install chai --save</strong>
 
-npm install --save-dev should
+<strong>npm install --save-dev should</strong>
 
-npm install --save-dev supertest
+<strong>npm install --save-dev supertest</strong>
 
 <h2>Run Server</h2>
 
-node app.js
+<strong>node app.js</strong>
 
 or
 
-nodemon app.js
+<strong>nodemon app.js</strong>
 
 <h2>Make Requests</h2>
 
