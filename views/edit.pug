@@ -1,0 +1,88 @@
+block extrastuff
+head
+  title= "Form"
+  style
+      include ../css/style.css
+
+block content
+h1= header
+form(action='/update/' + info.id method='post')/
+div
+  input.btn(type="submit" value="Submit")/
+  span= "  "
+  a(class='btn black' href='/') Back
+  p= ""
+
+div
+  input(value= info.id type="hidden" name="id")/
+
+div
+  label= "Login: "
+  input(value= info.login type="text" name="login")/
+
+div
+  label= "Avatar Url: "
+  input(value= info.avatar_url type="text" name="avatar_url")/
+
+div
+  label= "Gravatar ID: "
+  input(value= info.gravatar_id type="text" name="gravatar_id")/
+
+div
+  label= "URL: "
+  input(value= info.url type="text" name="url")/
+
+div
+  label= "HTML URL: "
+  input(value= info.html_url type="text" name="html_url")/
+
+div
+  label= "Followers URL: "
+  input(value= info.followers_url type="text" name="followers_url")/
+
+div
+  label= "Following URL: "
+  input(value= info.following_url type="text" name="following_url")/
+
+div
+  label= "Gists URL: "
+  input(value= info.gists_url type="text" name="gists_url")/
+
+div
+  label= "Starred URL: "
+  input(value= info.starred_url type="text" name="starred_url")/
+
+div
+  label= "Subscriptions URL: "
+  input(value= info.subscriptions_url type="text" name="subscriptions_url")/
+
+div
+  label= "Organizations URL: "
+  input(value= info.organizations_url type="text" name="organizations_url")/
+
+div
+  label= "Repos URL: "
+  input(value= info.repos_url type="text" name="repos_url")/
+
+div
+  label= "Events URL: "
+  input(value= info.events_url type="text" name="events_url")/
+
+div
+  label= "Received Events URL: "
+  input(value= info.received_events_url type="text" name="received_events_url")/
+
+div
+  label= "Type: "
+  input(value= info.type type="text" name="type")/
+
+div
+  label= "Site Admin: "
+  select(name="site_admin")/
+  case info.site_admin
+    when false
+      option(value='false', selected= ) False
+      option(value='true') True
+    when true
+      option(value='true', selected= ) True
+      option(value='false') False
