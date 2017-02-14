@@ -1,0 +1,35 @@
+div {
+  padding-bottom:10px;
+}
+label {
+  display: inline-block;
+  width:220px;
+  font-weight:bold;
+}
+input {
+  width:400px;
+}
+input[type="submit"] {
+  cursor:pointer;
+}
+select, input {
+  padding:5px;
+}
+a, .btn{
+  background: #3498db;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn{
+  width: 80px;
+  border: 0;
+}
+.black { background: #000000; color:ffffff;}
+
+.red { background:#ff0000; }
+span { font-weight:bold; }
+.insert { margin-bottom: 40px;}
+.insert .btn { background: #449D44; }
