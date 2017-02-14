@@ -1,0 +1,60 @@
+block extrastuff
+head
+  title= "Users"
+  style
+      include ../css/style.css
+
+block content
+
+h1= "User List"
+div
+  div.insert
+    a(class='btn' href='/api/add') Insert User
+
+  each val in info
+
+    a(class='btn' href='/edit/' + val.id) Edit
+    span= "  "
+    a(class='btn red' href='/delete/' + val.id) Delete
+    p= ""
+
+    p= "Login: "
+      span= val.login
+    p= "ID: "
+      span= val.id
+    p= "Avatar Url: "
+      span= val.avatar_url
+    p= "Gravatar ID: "
+      span= val.gravatar_id
+    p= "URL: "
+      span= val.url
+    p= "HTML URL: "
+      span= val.html_url
+    p= "Followers URL: "
+      span= val.followers_url
+    p= "Following URL: "
+      span= val.following_url
+    p= "Gists URL: "
+      span= val.gists_url
+    p= "Starred URL: "
+      span= val.starred_url
+    p= "Subscriptions URL: "
+      span= val.subscriptions_url
+    p= "Organizations URL: "
+      span= val.organizations_url
+    p= "Repos URL: "
+      span= val.repos_url
+    p= "Events URL: "
+      span= val.events_url
+    p= "Received Events URL: "
+      span= val.received_events_url
+    p= "Type: "
+      span= val.type
+    p= "Site Admin: "
+      span= val.site_admin
+
+    p= " -------------------------------------- "
+  else
+    li There are no values
+
+div/
